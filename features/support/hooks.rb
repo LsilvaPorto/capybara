@@ -2,7 +2,7 @@ Before do
     require_relative 'Page'
     require_relative 'PageLogin'
     require_relative 'PageEnvio'
-    pagina = 
+     
     PageLogin = PageLogin.new("https://login.live.com/", "teste.capybara@outlook.com", 'testesenha1')
     PageEnvio = PageEnvio.new
 end
